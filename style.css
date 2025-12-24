@@ -1,0 +1,47 @@
+ body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 80% 20%, rgba(255,255,255,0.15), transparent 40%);
+  pointer-events: none;
+}
+       
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0b1026, #1b2a4e);
+  overflow: hidden;
+  position: relative;
+}
+
+.stars {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow:
+    5vw 10vh #fff,
+    15vw 30vh #fff,
+    25vw 50vh #fff,
+    35vw 40vh #fff,
+    45vw 90vh #fff,
+    55vw 20vh #fff,
+    65vw 60vh #fff,
+    75vw 35vh #fff,
+    85vw 80vh #fff,
+    95vw 50vh #fff,
+    10vw 70vh #fff,
+    30vw 15vh #fff,
+    50vw 85vh #fff,
+    70vw 30vh #fff,
+    90vw 10vh #fff;
+  animation: twinkle 6s linear infinite alternate;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes twinkle {
+  0% { opacity: .5; }
+  100% { opacity: 1; }
+}

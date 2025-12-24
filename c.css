@@ -1,0 +1,162 @@
+/* full screen background */
+/* html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+} */
+.night-sky {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #0b1026, #1b2a4e);
+  /* overflow: hidden; */
+  position: relative;
+}
+
+/* stars layer */
+.stars {
+  position: fixed;
+  inset: 0;
+  width: 3px;
+  height: 2px;
+  background: transparent;
+  pointer-events: none;
+
+  box-shadow:
+    5vw 10vh #fff,
+    15vw 30vh #fff,
+    25vw 60vh #fff,
+    35vw 40vh #fff,
+    45vw 85vh #fff,
+    55vw 20vh #fff,
+    65vw 70vh #fff,
+    75vw 35vh #fff,
+    85vw 80vh #fff,
+    95vw 50vh #fff,
+    10vw 75vh #fff,
+    20vw 15vh #fff,
+    30vw 90vh #fff,
+    50vw 10vh #fff,
+    70vw 55vh #fff,
+    90vw 25vh #fff;
+
+  animation: twinkle 3s infinite alternate;
+  pointer-events: none;
+}
+.night-sky::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 80% 20%,
+    rgba(255,255,255,0.15),
+    transparent 40%
+  );
+}
+
+.yellow-text {
+  color: #f3df26;
+}
+.brown-text {
+  color: #a09005;
+}
+.gradient-border {
+  border-radius: 16px;
+  padding: 2rem;
+  background:
+    linear-gradient(#0b1026, #0b1026) padding-box,
+    linear-gradient(135deg, #443411, #6b6625) border-box;
+  border: 2px solid transparent;
+}
+
+/* soft twinkle */
+@keyframes twinkle {
+  from { opacity: 0.6; }
+  to   { opacity: 1; }
+}
+
+.gradient-btn {
+  position: relative;
+  z-index: 1;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  background: linear-gradient(#0b1026, #0b1026);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  overflow: hidden;
+  transition: color 0.3s;
+}
+
+.gradient-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #020a2c, #8fd3f4);
+  z-index: -1;
+  transition: transform 0.3s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.gradient-btn:hover::before {
+  transform: scaleX(1);
+}
+
+.gradient-btn:hover {
+   color: #0b1026;
+  box-shadow: 0 0 15px rgba(94, 231, 223, 0.5), 0 0 30px rgba(110, 133, 255, 0.3);
+
+} 
+
+.circle-total-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;       /* makes it circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* Gradient border + dark inner */
+.circle-total-btn {
+  background:
+    linear-gradient(#0b1026, #0b1026) padding-box,
+    linear-gradient(135deg, #6a85ff, #8fd3f4) border-box;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+
+.circle-order-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;       /* makes it circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+  color: #a09005;
+  transition: all 0.3s ease;
+}
+
+/* Gradient border + dark inner */
+.circle-order-btn {
+  background:
+    linear-gradient(#3b310d, #13110c) padding-box,
+    linear-gradient(135deg, #3b310d, #3b310d) border-box;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
