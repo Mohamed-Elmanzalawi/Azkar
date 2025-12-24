@@ -23,10 +23,10 @@
     <p>
 Recite these blessed words as the sun sets to seek Allah's protection and blessings
 </p>
-<div class="mt-4 border gradient-border">
+<div id="totalParts" class="mt-4 circleContainer border gradient-border">
       <div class="d-flex justify-content-between">
     <span class="circle-order-btn fs-13">1</span>  
-  <span class="circle-total-btn fs-13">0/1</span>
+  <span id="totalDisplay" class="circle-total-btn fs-13">0/1</span>
 </div>
     <p class="mt-3 fs-4 fw-bold">
         أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ
@@ -39,12 +39,15 @@ Recite these blessed words as the sun sets to seek Allah's protection and blessi
     <p class="mt-3 brown-text fst-italic">
         — Abu Dawud
     </p>
+   <button id="resetBtn" class="btn gradient-btn text-white px-4 py-2">-></button>
+    <button id="countBtn" class="btn gradient-btn text-white px-4 py-2">Tape to Count</button>
+
 </div>
-<div class="mt-4 border gradient-border">
+<div id="totalParts" class="mt-4 circleContainer border gradient-border">
       <div class="d-flex justify-content-between">
-    <span class="circle-order-btn fs-13">1</span>  
-  <span class="circle-total-btn fs-13">0/1</span>
-</div>
+      <span class="circle-order-btn fs-13">2</span>  
+       <span id="totalDisplay" class="circle-total-btn fs-13">0/3</span>
+     </div>
     <p class="mt-3 fs-4 fw-bold">
 اللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ الْمَصِيرُ
     </p>
@@ -56,7 +59,29 @@ O Allah, by Your leave we have reached the evening and by Your leave we have rea
     <p class="mt-3 brown-text fst-italic">
         — At-Tirmidhi
     </p>
-<button type="button" class="btn gradient-btn text-white px-4 py-2">Tape to Count</button>
+    <button id="resetBtn" class="btn gradient-btn text-white px-4 py-2">-></button>
+    <button id="countBtn" class="btn gradient-btn text-white px-4 py-2">Tape to Count</button>
+
+</div>
+<div id="totalParts" class="mt-4 circleContainer border gradient-border">
+      <div class="d-flex justify-content-between">
+    <span class="circle-order-btn fs-13">3</span>  
+  <span id="totalDisplay" class="circle-total-btn fs-13">0/10</span>
+</div>
+    <p class="mt-3 fs-4 fw-bold">
+        أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ
+
+    </p>
+    <p class="mt-3 fst-italic">Amsayna wa amsal-mulku lillah, walhamdu lillah, la ilaha illallahu wahdahu la shareeka lah, lahul-mulku wa lahul-hamd, wa Huwa 'ala kulli shay'in Qadeer</p>
+    <p>
+        the kingdom belongs to Allah. All praise is for Allah. None has the right to be worshipped except Allah, alone, without partner. To Him belongs all sovereignty and praise, and He is over all things omnipotent.
+    </p>
+    <p class="mt-3 brown-text fst-italic">
+        — Abu Dawud
+    </p>
+   <button id="resetBtn" class="btn gradient-btn text-white px-4 py-2">-></button>
+    <button id="countBtn" class="btn gradient-btn text-white px-4 py-2">Tape to Count</button>
+
 </div>
 <div class="mt-4 border gradient-border">
     <p class="mt-3 fs-4 fw-bold">
@@ -74,7 +99,6 @@ O Allah, by Your leave we have reached the evening and by Your leave we have rea
 <div class="mt-4 border gradient-border">
     <p class="mt-3 fs-4 fw-bold">
         أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ
-
     </p>
     <p class="mt-3 fst-italic">Amsayna wa amsal-mulku lillah, walhamdu lillah, la ilaha illallahu wahdahu la shareeka lah, lahul-mulku wa lahul-hamd, wa Huwa 'ala kulli shay'in Qadeer</p>
     <p>
@@ -112,5 +136,6 @@ O Allah, by Your leave we have reached the evening and by Your leave we have rea
 </div>
 </div>
     <script src="Bootstrap/bootstrap.js"></script>
+    <script src="js.js"></script>
 </body>
 </html>

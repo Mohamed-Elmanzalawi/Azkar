@@ -62,14 +62,33 @@ body{
 .brown-text {
   color: #a09005;
 }
+
+/* Gradient card */
 .gradient-border {
   border-radius: 16px;
   padding: 2rem;
   background:
-    linear-gradient(#0b1026, #0b1026) padding-box,
-    linear-gradient(135deg, #443411, #6b6625) border-box;
+    linear-gradient(#0b1026, #0b1026) padding-box,  /* inner dark background */
+    linear-gradient(135deg, #443411, #6b6625) border-box; /* gradient border */
   border: 2px solid transparent;
+  transition: all 0.3s ease; /* smooth transition for border changes */
 }
+
+/* Yellow highlight when max reached */
+.gradient-border.max-reached {
+  border-color: yellow !important;
+  box-shadow: 0 0 15px yellow;
+}
+
+/* Circle highlight */
+.circle-total-btn.max-reached {
+  border-color: yellow;
+  box-shadow: 0 0 10px yellow;
+  color: yellow;
+  text-shadow: 0 0 10px yellow;
+}
+
+
 
 /* soft twinkle */
 @keyframes twinkle {
@@ -95,7 +114,7 @@ body{
   position: absolute;
   inset: 0;
   border-radius: 50px;
-  background: linear-gradient(135deg, #020a2c, #8fd3f4);
+  background: linear-gradient(135deg, #020a2c, #153b4e);
   z-index: -1;
   transition: transform 0.3s;
   transform: scaleX(0);
@@ -113,13 +132,12 @@ body{
 } 
 
 .circle-total-btn {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;       /* makes it circular */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
   border: 2px solid transparent;
   position: relative;
   overflow: hidden;
@@ -131,7 +149,7 @@ body{
 .circle-total-btn {
   background:
     linear-gradient(#0b1026, #0b1026) padding-box,
-    linear-gradient(135deg, #6a85ff, #8fd3f4) border-box;
+    linear-gradient(135deg, #6a85ff, #1e4558) border-box;
   border: 2px solid transparent;
   cursor: pointer;
 }
