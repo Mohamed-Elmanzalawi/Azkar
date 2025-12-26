@@ -82,12 +82,10 @@
     22vw 30vh #fff,
     62vw 60vh #fff,
     93vw 79vh #fff;
-    direction: ltr !important;
 }
-
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .stars { position: absolute; }
-}
+} */
 
 .night-sky::before {
   content: "";
