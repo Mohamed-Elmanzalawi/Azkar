@@ -66,7 +66,6 @@ async function addDateToHtml() {
   for (zikr of azkar) {
     
     content.innerHTML += `
-    <div class="page-content">
     <div class="mt-4 totalParts circleContainer border gradient-border">
         <div class="d-flex justify-content-between">
 
@@ -81,7 +80,6 @@ async function addDateToHtml() {
     <button class="resetBtn btn gradient-btn text-white px-4 py-2 fs-5" aria-label="Reset zikr counter"><i class="fa-solid fa-rotate-left"></i></button>
         <button class=" countBtn btn gradient-btn text-white px-4 py-2 clickedVoiceBtn"   aria-label="Tap to count zikr repetitions">Tap to Count</button>
     </div>
-</div>
 `
   }
 }
