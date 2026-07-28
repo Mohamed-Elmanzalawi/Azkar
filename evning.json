@@ -189,11 +189,11 @@
      "min":0,
     "max":10
   },
-  {
-    "verse": "لَا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءِ قَدِيرِ",
-    "Eng_trans": "La ilaha illallahu wahdahu la shareeka lah, lahul-mulku wa lahul-hamd, wa Huwa 'ala kulli shay'in Qadeer.",
-    "Tafsir": "There is no deity except Allah, alone, without partner. To Him belongs all sovereignty and praise, and He is over all things omnipotent.",
-    "Author": "— Muslim",
+    {
+    "verse": "أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ",
+    "Eng_trans": "Astaghfirullah wa atubu ilayhi",
+    "Tafsir": "I seek forgiveness from Allah and turn to Him in repentance.",
+    "Author": "— Al-Bukhari & Muslim",
     "order": 23,
      "min":0,
     "max":100
@@ -207,13 +207,14 @@
      "min":0,
     "max":100
   },
-  {
-    "verse": "أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ",
-    "Eng_trans": "Astaghfirullah wa atubu ilayhi",
-    "Tafsir": "I seek forgiveness from Allah and turn to Him in repentance.",
-    "Author": "— Al-Bukhari & Muslim",
-    "order": 25,
+    {
+    "verse": "لَا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءِ قَدِيرِ",
+    "Eng_trans": "La ilaha illallahu wahdahu la shareeka lah, lahul-mulku wa lahul-hamd, wa Huwa 'ala kulli shay'in Qadeer.",
+    "Tafsir": "There is no deity except Allah, alone, without partner. To Him belongs all sovereignty and praise, and He is over all things omnipotent.",
+    "Author": "— Muslim",
+    "order": 23,
      "min":0,
     "max":100
   }
+
 ]

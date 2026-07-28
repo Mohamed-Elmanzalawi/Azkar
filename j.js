@@ -4,18 +4,27 @@
 //     .then(() => console.log("SW registered "))
 //     .catch(err => console.log("SW error", err));
 // }
+
   const clickSound = new Audio("click.wav");
   clickSound.preload = "auto";
 
  // function for both morning and evening azkar
-  window.loadAzkar = function (file) {
+  const loadAzkar = async function (file) {
+
 
     const cart = document.querySelector(".cart");
     cart.innerHTML = "";
-
-    fetch(file)
-      .then(response => response.json())
-      .then(data => {
+try{
+    const response = await fetch(file)
+    // console.log(response);
+    
+      const data =await response.json()
+      console.log(data)
+      
+       document.getElementsByClassName("divider")[0].innerHTML =`
+                                              <div class="line"></div>
+                                              <div class="circle"></div>
+                                              <div class="line right"></div>`
 
         data.forEach(item => {
 
@@ -52,12 +61,11 @@
         });
 
         attachLogic(); //after creating cards 
-      })
-      .catch(error => console.error("Error loading JSON:", error));
-  };
+      }  catch (err){
+          console.error("Error loading:", err);
+  }}
 
-
-  //cards logic
+  //cards logic of counting and styles
   function attachLogic() {
 
     const containers = document.querySelectorAll('.totalParts');
@@ -89,7 +97,7 @@
         }
       });
 
-      //card logic and style awhile counting
+      //reset 
       resetBtn.addEventListener('click', () => {
         count = 0;
         totalDisplay.textContent = `0/${maxCount}`;
@@ -105,7 +113,7 @@
 
 
   // Theme
-  window.setDark = function () {
+  const setDark = function () {
     document.body.classList.add("dark");
     document.body.classList.remove("light");
     localStorage.setItem("theme", "dark");
@@ -115,10 +123,11 @@
 
     document.querySelector(".icon-title").innerHTML = "أذكار المساء";
     document.querySelector(".evening").innerHTML = "Evening Remembrances";
+    document.querySelector(".icon-desc").classList.add("text-light")
     document.querySelector(".icon-desc").innerHTML = "Recite these blessed words as the sun sets to seek Allah's protection and blessings";
   };
 
-  window.setLight = function () {
+  const setLight = function () {
     document.body.classList.remove("dark");
     document.body.classList.add("light");
     localStorage.setItem("theme", "light");
@@ -128,6 +137,7 @@
 
     document.querySelector(".icon-title").innerHTML = "أذكار الصباح";
     document.querySelector(".evening").innerHTML = "Morning Remembrances";
+    document.querySelector(".icon-desc").classList.add("text-light")
     document.querySelector(".icon-desc").innerHTML = "Recite these blessed words as the sun raises to seek Allah's protection and blessings";
   };
 
