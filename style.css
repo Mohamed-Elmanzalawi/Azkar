@@ -141,9 +141,7 @@ body.dark{
     animation: twinkle 2s infinite alternate;
    pointer-events: none;
 }
-.move{
-  animation: birds 1s linear infinite;
-}
+
 .left_lower_birds{
   position: absolute;
   top: 350px;
@@ -162,7 +160,7 @@ body.dark{
 .right_lower_birds{
   position: absolute;
   top: 200px;
-  right: 180px;
+  right: 150px;
 }
 .left_birds{
   position: absolute;
@@ -178,6 +176,10 @@ body.dark{
   position: absolute;
   top: 300px;
   right: 90px;
+}
+
+.move{
+  animation: birds 0.5s linear infinite;
 }
 .night-sky::before {
   content: "";
