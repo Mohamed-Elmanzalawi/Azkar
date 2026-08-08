@@ -3,29 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Recite Azkar Almasaa (Evening Remembrances) to seek Allah's protection and blessings. Includes Arabic text, transliteration, and translation.">
+    <meta name="description" content="Recite Azkar Alsabah & Almasaa (Morning & Evening Remembrances) to seek Allah's protection and blessings. Includes Arabic text, transliteration, and translation.">
     <meta name="keywords" content="Azkar Almasaa, Evening Remembrances, Islamic Prayers, Muslim Supplications">
     <meta name="author" content="Azkar Almasaa">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Language" content="ar,en">
     <title>أذكار الصباح والمساء | Azkar Morning & Evening</title>
     <link  rel="icon" href="duaa.png" type="image/png">
-   <link rel="canonical" href="https://iman-elsebeiy.github.io/Azkar/">
+    <link rel="canonical" href="https://iman-elsebeiy.github.io/Azkar/">
     <link rel="stylesheet" href="Bootstrap/bootstrap.css">
     <link rel="stylesheet" href="fontawesome-free-7.1.0-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="./manifest_and_icons/manifest.json">
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "CreativeWork",
-  "name": "Azkar Almasaa",
+  "name": "Azkar Alsabah & Almasaa",
   "description": "Evening Remembrances in Arabic, transliteration, and translation.",
   "inLanguage": ["ar","en"]
 }
 </script>
 </head>
 <body class="night-sky " >
-
+<span class="text-light-emphasis move  left_birds">⁔⁔⁀⁀</span>
+<span class="text-light-emphasis move left_upper_birds">⁀⁀</span>
+<span class="text-light-emphasis move right_upper_birds">⁔⁔⁀⁀</span>
+<span class="text-light-emphasis move right_birds">⁔⁔ </span>
+<span class="text-light-emphasis move left_lower_birds">⁔⁔⁀⁀</span>
+<!-- <span class="text-light-emphasis move upper_birds">⁔⁔⁀⁀</span> -->
+<span class="text-light-emphasis move right_lower_birds">⁀⁀</span>
   <!-- stars layer -->
   <div class="stars"></div>
   <div class="stars stars-small" ></div>
@@ -36,23 +43,25 @@
   <!-- content -->
 <main class="container text-center " >
     <div class="d-flex gap-2 p-3">
-  <button id="darkBtn" onclick="setDark()" class="btn btn-modern"> <i class="yellow-text fa-solid fa-moon"> </i> </button>
-  <button id="lightBtn" onclick="setLight()" class="btn btn-modern"> <i class="yellow-text fa-solid fa-sun"></i></button>
+  <button type="button" id="darkBtn"  onclick="loadAzkar('evning.json'); setDark()" class="btn btn-modern"> <i class="yellow-text fa-solid fa-moon"> </i> المساء</button>
+  <button type="button" id="lightBtn" onclick="loadAzkar('morning.json'); setLight()" class="btn btn-modern"> <i class="yellow-text fa-solid fa-sun"></i>  الصباح </button>
+    <!-- <button type="button" id="child" class="btn btn-modern"> <i class="yellow-text fa-solid fa-person"></i> Kids</button> -->
+
 </div>
        
         <!-- <h1 class="moon-container moon"  aria-label="🌙 moon symbol">🌙</h1>  -->
-     <h1 class="moon moon-container"  aria-label="🌙 moon symbol"><i class="icon yellow-text fa-solid fa-sun"></i></h1>
-    <h1 class="mt-5 icon-title mb-4 fs-1 fw-bold yellow-text">أذكار الصباح      
+     <h1 class="moon moon-container"  aria-label="🌙 moon symbol"><i class="icon yellow-text fa-solid "></i></h1>
+    <h1 class="mt-5 icon-title mb-4 fs-1 fw-bold yellow-text">       
     </h1>
-        <img src="duaa.png" width=100px height=100px alt="Duaa image">
-    <h5 class="text-light evening mb-3">morning Remembrances</h5>
-    <h6 class="text-light">
-   Recite these blessed words as the sun sets to seek Allah's protection and blessings
+    <div  class="img-container">
+        <img src="duaa.png" alt="Duaa image">
+    </div>
+    <h5 class="text-light evening mb-3">Begin your morning or evning Adhkar </h5>
+    <h6 class="text-light-emphasis icon-desc">
+    Just 5 minutes of peace.🤍 ⏰
     </h6>
      <div class="divider">
-    <div class="line"></div>
-    <div class="circle"></div>
-    <div class="line right"></div>
+
   </div>
 
   <!-- content from json -->
@@ -70,11 +79,11 @@
     <div class="line right"></div>
     </div> 
        <h6 class="text-dark-emphasis"> May Allah accept your worship </h6>
-        <h4 class="text-light-emphasis">تقبل الله منا ومنكم          </h4>
- <div ><img src="smile.png" alt="smiley" width="60" height="60"></div>
+        <h4 class="text-light-emphasis">تقبل الله منا ومنكم</h4>
+ <div class="img-container" ><img src="smile.png" alt="smiley"></div>
 </div>
 </main>
     <script src="Bootstrap/bootstrap.js"></script>
-    <script src="j.js"></script>
+    <script src="j.js" defer></script>
 </body>
 </html>

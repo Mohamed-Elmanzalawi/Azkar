@@ -9,7 +9,7 @@
     "max":1
   },
   {
-    "verse": "بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم\n        <br/>\nقُلْ هُوَ للَّهُ أَحَدٌ، اللَّهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَد",
+    "verse": "بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم\n        <br/>\nقُلْ هُوَ اللَّهُ أَحَدٌ، اللَّهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَد",
     "Eng_trans": "Bismillahir-Rahmanir-Raheem. Qul Huwa Allahu Ahad, Allahus-Samad, Lam yalid wa lam yoolad, wa lam yakun lahu kufuwan ahad.",
     "Tafsir": "In the name of Allah, the Most Gracious, the Most Merciful. Say, \"He is Allah, [who is] One, Allah, the Eternal Refuge. He neither begets nor is born, Nor is there to Him any equivalent.\"",
     "Author": "— Abu Dawud, An-Nasa’ey & At-Tirmidhi",
@@ -25,7 +25,7 @@
      "min":0,
     "max":3  },
   {
-    "verse": "بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم\n<br/>\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ، مَلِكِ النَّاسِ، إِلَٰهِ النَّاسِ،مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ،الَّذِى يُوَسْوِسُ فِى صُدُورِ النَّاسِ، مِنَ الْجِنَّةِ وَالنَّاسِ",
+    "verse": "بِسْمِ اللهِ الرَّحْمنِ الرَّحِيم\n<br/>\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ، مَلِكِ النَّاسِ، إِلَٰهِ النَّاسِ، مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ،الَّذِى يُوَسْوِسُ فِى صُدُورِ النَّاسِ، مِنَ الْجِنَّةِ وَالنَّاسِ",
     "Eng_trans": "Bismillahir-Rahmanir-Raheem. Qul a'udhu birabbin-nas, malikin-nas, ilahin-nas, min sharri al-waswasil-khannas, alladhi yuwaswisu fee sudurin-nas, minal-jinnati wan-nas.",
     "Tafsir": "In the name of Allah, the Most Gracious, the Most Merciful. Say, \"I seek refuge in the Lord of mankind, The Sovereign of mankind, The God of mankind, From the evil of the retreating whisperer - Who whispers [evil] into the breasts of mankind - From among the jinn and mankind.\"",
     "Author": "— Abu Dawud, An-Nasa’ey & At-Tirmidhi",
@@ -82,34 +82,34 @@
     "max":1
   },
   {
-    "verse": "اللَّهُمَّ بِكَ  أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ الْمَصِيرُ",
-    "Eng_trans": "Allahumma bika Asbahna, wa bika amsayna, wa bika nahya, wa bika namootu, wa ilaykal-maseer",
-    "Tafsir": "O Allah, by Your leave we have reached the evening and by Your leave we have reached the morning, by Your leave we live and die and unto You is our return.",
+    "verse": "اللَّهُمَّ بِكَ  أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ النُّشُورُ",
+    "Eng_trans": "Allahumma bika asbahna, wa bika amsayna, wa bika nahya, wa bika namootu, wa ilaykal-nnushor",
+    "Tafsir": "O Allah, by Your leave we have reached the morning and by Your leveningeave we have reached the evening, by Your leave we live and die and unto You is our return.",
     "Author": "— At-Tirmidhi & Abu Dawud",
     "order": 11,
      "min":0,
     "max":1
   },
   {
-    "verse": "اللّهُـمَّ إِنِّـي أَمسيتُ أُشْـهِدُك ، وَأُشْـهِدُ حَمَلَـةَ عَـرْشِـك ، وَمَلَائِكَتَكَ ، وَجَمـيعَ خَلْـقِك ، أَنَّـكَ أَنْـتَ اللهُ لا إلهَ إلاّ أَنْـتَ وَحْـدَكَ لا شَريكَ لَـك ، وَأَنَّ ُ مُحَمّـداً عَبْـدُكَ وَرَسـولُـك",
-    "Eng_trans": "Allahumma inni amsaytu ush-hiduka, wa ush-hidu hamalata 'arshika, wa mala'ikataka, wa jami'a khalqika, annaka anta Allahu la ilaha illa anta wahdaka la sharika laka, wa anna Muhammadan 'abduka wa rasuluk.",
-    "Tafsir": "O Allah, verily I have reached the evening and I bear witness to You, and I bear witness to the carriers of Your Throne, and to Your angels, and to all of Your creation, that You are Allah, there is no deity except You alone, without partner, and that Muhammad is Your servant and Your Messenger.",
+    "verse": "اللّهُـمَّ إِنِّـي أَصْبَحْتُ أُشْـهِدُك ، وَأُشْـهِدُ حَمَلَـةَ عَـرْشِـك ، وَمَلَائِكَتَكَ ، وَجَمـيعَ خَلْـقِك ، أَنَّـكَ أَنْـتَ اللهُ لا إلهَ إلاّ أَنْـتَ وَحْـدَكَ لا شَريكَ لَـك ، وَأَنَّ ُ مُحَمّـداً عَبْـدُكَ وَرَسـولُـك",
+    "Eng_trans": "Allahumma inni asbahtu ush-hiduka, wa ush-hidu hamalata 'arshika, wa mala'ikataka, wa jami'a khalqika, annaka anta Allahu la ilaha illa anta wahdaka la sharika laka, wa anna Muhammadan 'abduka wa rasuluk.",
+    "Tafsir": "O Allah, verily I have reached the morning and I bear witness to You, and I bear witness to the carriers of Your Throne, and to Your angels, and to all of Your creation, that You are Allah, there is no deity except You alone, without partner, and that Muhammad is Your servant and Your Messenger.",
     "Author": "— Abu Dawud",
     "order": 12,
      "min":0,
-    "max":1
+    "max":4
   },
   {
-    "verse": "اللّهُـمَّ ما أَمسى بي مِـنْ نِعْـمَةٍ أَو بِأَحَـدٍ مِـنْ خَلْـقِك ، فَمِـنْكَ وَحْـدَكَ لا شريكَ لَـك ، فَلَـكَ الْحَمْـدُ وَلَـكَ الشُّكْـر",
-    "Eng_trans": "Allahumma ma amsa bee min ni'matin aw bi ahadin min khalqika, faminka wahdaka la sharika laka, falakal-hamdu walakash-shukr.",
-    "Tafsir": "O Allah, whatever blessing has been received by me or by any of Your creation this evening, is from You alone, without partner. So all praise and thanks are for You.",
+    "verse": "اللّهُـمَّ ما أَصْبَح بي مِـنْ نِعْـمَةٍ أَو بِأَحَـدٍ مِـنْ خَلْـقِك ، فَمِـنْكَ وَحْـدَكَ لا شريكَ لَـك ، فَلَـكَ الْحَمْـدُ وَلَـكَ الشُّكْـر",
+    "Eng_trans": "Allahumma ma asbaha bee min ni'matin aw bi ahadin min khalqika, faminka wahdaka la sharika laka, falakal-hamdu walakash-shukr.",
+    "Tafsir": "O Allah, whatever blessing has been received by me or by any of Your creation this morning, is from You alone, without partner. So all praise and thanks are for You.",
     "Author": "— Abu Dawud",
     "order": 13,
      "min":0,
     "max":1
   },
   {
-    "verse": "يَا رَبِّ , لَكَ الْحَمْدُ كَمَا يَنْبَغِي لِجَلَالِ وَجْهِكَ , وَلِعَظِيمِ سُلْطَانِكَ",
+    "verse": "يَا رَبِّ، لَكَ الْحَمْدُ كَمَا يَنْبَغِي لِجَلَالِ وَجْهِكَ، وَلِعَظِيمِ سُلْطَانِكَ",
     "Eng_trans": "Ya Rabb, laka al-hamdu kama yanbaghi lijalali wajhika, wa li'azimi sultanika.",
     "Tafsir": "O Lord, all praise is for You as is befitting to the majesty of Your Face and the greatness of Your Authority.",
     "Author": "— Ibn Majah",
@@ -189,11 +189,11 @@
      "min":0,
     "max":10
   },
-  {
-    "verse": "لَا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءِ قَدِيرِ",
-    "Eng_trans": "La ilaha illallahu wahdahu la shareeka lah, lahul-mulku wa lahul-hamd, wa Huwa 'ala kulli shay'in Qadeer.",
-    "Tafsir": "There is no deity except Allah, alone, without partner. To Him belongs all sovereignty and praise, and He is over all things omnipotent.",
-    "Author": "— Muslim",
+    {
+    "verse": "أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ",
+    "Eng_trans": "Astaghfirullah wa atubu ilayhi",
+    "Tafsir": "I seek forgiveness from Allah and turn to Him in repentance.",
+    "Author": "— Al-Bukhari & Muslim",
     "order": 23,
      "min":0,
     "max":100
@@ -207,13 +207,14 @@
      "min":0,
     "max":100
   },
-  {
-    "verse": "أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ",
-    "Eng_trans": "Astaghfirullah wa atubu ilayhi",
-    "Tafsir": "I seek forgiveness from Allah and turn to Him in repentance.",
-    "Author": "— Al-Bukhari & Muslim",
+    {
+    "verse": "لَا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءِ قَدِيرِ",
+    "Eng_trans": "La ilaha illallahu wahdahu la shareeka lah, lahul-mulku wa lahul-hamd, wa Huwa 'ala kulli shay'in Qadeer.",
+    "Tafsir": "There is no deity except Allah, alone, without partner. To Him belongs all sovereignty and praise, and He is over all things omnipotent.",
+    "Author": "— Muslim",
     "order": 25,
      "min":0,
     "max":100
   }
+
 ]
